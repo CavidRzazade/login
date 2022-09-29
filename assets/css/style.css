@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+
+.container p{
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    position: relative;
+    width: 400px;
+    height: 450px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 70px;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+
+
+.username{
+    position: absolute;
+    padding-left: 600px;
+    padding-bottom: 500px;
+    margin-top: -340px;
+    border-radius: 20px;
+}
+
+
+.password{
+    position: absolute;
+    padding-left: 600px;
+    padding-bottom: 500px;
+    margin-top: -285px;
+    border-radius: 20px;
+}
+
+
+
+.button{
+    background-color: tomato;
+    height: 35px;
+    width: 120px;
+    border-radius: 25px;
+    border: none;
+    margin-left: 620px;
+    margin-top: -200px;
+    position: absolute;
+}
